@@ -1,0 +1,27 @@
+{
+    "name": "diatem-net/jin-context",
+    "description": "Utility classes for context detection.",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Loïc Gérard",
+            "email": "lgerard@diatem.net"
+        },
+        {
+            "name": "Samuel Marchal",
+            "email": "smarchal@diatem.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "ikimea/browser": "~1.14",
+        "mobiledetect/mobiledetectlib": "~2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jin2\\": "src/"
+        }
+    }
+}
