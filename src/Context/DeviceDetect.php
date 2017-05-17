@@ -20,7 +20,7 @@ class DeviceDetect
    *
    * @var object
    */
-  static private $detectCode;
+  static protected $detectCode;
 
   /**
    * Retourne si la plate-forme est une tablette
@@ -77,7 +77,7 @@ class DeviceDetect
   /**
    * Permet l'identification de la plate-forme
    */
-  private static function detectDevice()
+  protected static function detectDevice()
   {
     $detect = new MobileDetect();
     self::$detectCode = array();

@@ -19,7 +19,7 @@ class BrowserDetect
    * Instance de Browser;
    * @var Browser
    */
-  private static $browserData;
+  protected static $browserData;
 
   /**
    * Retourne une chaîne identifiant le navigateur/plate-forme client
@@ -89,7 +89,7 @@ class BrowserDetect
   /**
    * Permet la détection du navigateur
    */
-  private static function detectBrowser()
+  protected static function detectBrowser()
   {
     self::$browserData = new Browser();
   }
